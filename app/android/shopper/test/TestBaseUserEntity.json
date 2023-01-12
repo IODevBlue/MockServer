@@ -1,0 +1,48 @@
+{
+	"firstName" : "IO",
+	"lastName" : "DevBlue",
+	"userType" : "Buyer",
+	"totalSpending" : 5000,
+	"totalPurchases" : 35,
+	"id" : "2023iode11vb1u3e",
+	"nickName" : "Blue",
+	"email" : "iodevblue@gmail.com",
+	"gender" : "MALE",
+	"telephoneLine" : 8123456789,
+	"telephoneLine2" : 8098765432,
+	"country" : {
+		"name" : "Nigeria",
+		"dial_code" : "+234",
+		"code" : "ng"
+	},
+	"biography" : "Native Android Developer || Kotlin programmer || Open Source Enthusiast.",
+	"homeAddress" : {
+		"streetNumber" : 2023,
+		"streetName" : "Programmers Lane",
+		"city" : "Kotlin City",
+		"addressIdentifier" : "",
+		"state" : "Lagos State",
+		"country" : "Nigeria",
+		"postalCode" : "12345098",
+		"zip" : 99999,
+		"additionInformation" : ""
+	},
+	"profileImage" : "https://avatars.githubusercontent.com/u/95544678?v=4",
+	"cachedProfileImage" : "",
+	"rating" : 8.5,
+	"savedAddresses" : [],
+	"languages" : [
+		{
+			"value" : "en",
+			"name" : "English"
+		}
+	],
+	"reviews" : [],
+	"balance" : 10000,
+	"onlineStatus" : "OFFLINE",
+	"lastSeen" : 1673550450969,
+	"lastDelivery" : 1673550450969,
+	"activeOrders" : 3,
+	"cancelledOrders" : 1,
+	"completedOrders" : 15
+}
