@@ -4,127 +4,127 @@
 		{
 			"title" : "Air conditioner",
 			"subtitle" : "State of the art 21st century product",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/air_conditioner.jpg"
 		},
 		{
 			"title" : "Body lotion",
 			"subtitle" : "Deeply moisturizes and hydrates the skin.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/body_lotion.jpg"
 		},
 		{
 			"title" : "Chess board",
 			"subtitle" : "Play the game of Chess!",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/chess_board.jpg"
 		},
 		{
 			"title" : "Dr Strange movie",
 			"subtitle" : "Watch Dr. Strange and the Avengers do battle.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/dr_strange.jpg"
 		},
 		{
 			"title" : "Electric machine",
 			"subtitle" : "Machine for Electric fun stuff.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/electric_machine.jpg"
 		},
 		{
 			"title" : "Fan",
 			"subtitle" : "Fan yourself with this tool!.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/fan.jpg"
 		},
 		{
 			"title" : "Gold chains",
 			"subtitle" : "Chains on your wrist.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/gold_chains.jpg"
 		},
 		{
 			"title" : "Hair Straightner",
 			"subtitle" : "Electric hair styler for you.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/hair_straightner.jpg"
 		},
 		{
 			"title" : "Ice cream machine",
 			"subtitle" : "Ice cream, Vanilla. Make them all!!!",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/ice_cream_machine.jpg"
 		},
 		{
 			"title" : "Jojo bizarre adventure",
 			"subtitle" : "Yare Yare Daze.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/jojo.jpg"
 		},
 		{
 			"title" : "Killer bee action figure",
 			"subtitle" : "WHHEEEEEEEEEE!!!!",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/killer_bee.jpg"
 		},
 		{
 			"title" : "Lotus flowers",
 			"subtitle" : "Flowers to change your mood.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/lotus.jpg"
 		},
 		{
 			"title" : "Manchester united jersey",
 			"subtitle" : "The Red Devils",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/manu.jpg"
 		},
 		{
 			"title" : "Nerd glasses",
 			"subtitle" : "Wanna look like you know scientific stuff?",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/nerd_glass.jpg"
 		},
 		{
 			"title" : "Ovaltine",
 			"subtitle" : "Healthy. Milky. Tea. For you.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/ovaltine.jpg"
 		},
 		{
 			"title" : "Pet food",
 			"subtitle" : "For Healthy pets to make them strong",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/pet_food.jpg"
 		},
 		{
 			"title" : "Queen rose fragrance",
-			"subtitle" : "No ethyl alcohol",
-			"picture" : ""
+			"subtitle" : "Eau De Parfum",
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/queen_rose.jpg"
 		},
 		{
 			"title" : "Rat terminator",
 			"subtitle" : "Rodent stopper. Pump action.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/rat.jpg"
 		},
 		{
 			"title" : "Sakura",
 			"subtitle" : "Chaaaaaaannaaaaarroooo",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/sakura.jpg"
 		},
 		{
 			"title" : "Turn tables",
 			"subtitle" : "Spin the wheel. Get the feel.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/turn_table.jpg"
 		},
 		{
 			"title" : "USB cables",
 			"subtitle" : "Trustworthy for your devices.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/usb.jpg"
 		},
 		{
 			"title" : "Vitalis roll-on",
 			"subtitle" : "Fragranced Deodorant.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/vitalis.jpg"
 		},
 		{
 			"title" : "Xray chart",
 			"subtitle" : "Study the human anatomy.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/xray.jpg"
 		},
 		{
 			"title" : "Yoyo toy",
 			"subtitle" : "Bounce. Bounce. Bounce.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/yoyo.jpg"
 		},
 		{
 			"title" : "Zebra costume",
 			"subtitle" : "Unlock your inner Zebra chi with this costume.",
-			"picture" : ""
+			"picture" : "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/zebra.jpg"
 		}
 	]
 }
