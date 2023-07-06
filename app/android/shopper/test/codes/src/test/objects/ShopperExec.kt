@@ -25,8 +25,9 @@ class ShopperExec {
 	private var dynamicPath = "$path\\dynamic\\%s.json"
 	
 	private var repo = "https://github.com/IODevBlue/MockServer/raw/main/app/android/shopper/test"
-    
-       
+	private val imagePath = "https://raw.githubusercontent.com/IODevBlue/MockServer/main/app/android/shopper/test/images/%s.jpg"
+  private val productEntity = EntityType.PRODUCT     
+	
 	fun createDynamicMainItems() {
 		val file = File(String.format(dynamicPath, "DynamicMainActivityDrawerItems"))
 		if(!file.exists()) file.createNewFile()
@@ -153,31 +154,31 @@ class ShopperExec {
 		
 		val srle = SearchResultListEntity("TestSearchResultList")
 		srle.searchList.addAll(arrayListOf(
-			SearchResultEntity("Air conditioner").apply{subtitle="State of the art 21st century product"},
-			SearchResultEntity("Body lotion").apply{subtitle="Deeply moisturizes and hydrates the skin."},
-			SearchResultEntity("Chess board").apply{subtitle="Play the game of Chess!"},
-			SearchResultEntity("Dr Strange movie").apply{subtitle="Watch Dr. Strange and the Avengers do battle."},
-			SearchResultEntity("Electric machine").apply{subtitle="Machine for Electric fun stuff."},
-			SearchResultEntity("Fan").apply{subtitle="Fan yourself with this tool!."},
-			SearchResultEntity("Gold chains").apply{subtitle="Chains on your wrist."},
-			SearchResultEntity("Hair Straightner").apply{subtitle="Electric hair styler for you."},
-			SearchResultEntity("Ice cream machine").apply{subtitle="Ice cream, Vanilla. Make them all!!!"},
-			SearchResultEntity("Jojo bizarre adventure").apply{subtitle="Yare Yare Daze."},
-			SearchResultEntity("Killer bee action figure").apply{subtitle="WHHEEEEEEEEEE!!!!"},
-			SearchResultEntity("Lotus flowers").apply{subtitle="Flowers to change your mood."},
-			SearchResultEntity("Manchester united jersey").apply{subtitle="The Red Devils"},
-			SearchResultEntity("Nerd glasses").apply{subtitle="Wanna look like you know scientific stuff?"},
-			SearchResultEntity("Ovaltine").apply{subtitle="Healthy. Milky. Tea. For you."},
-			SearchResultEntity("Pet food").apply{subtitle="For Healthy pets to make them strong"},
-			SearchResultEntity("Queen rose fragrance").apply{subtitle="Eau De Parfum"},
-			SearchResultEntity("Rat terminator").apply{subtitle="Rodent stopper. Pump action."},
-			SearchResultEntity("Sakura").apply{subtitle="Chaaaaaaannaaaaarroooo"},
-			SearchResultEntity("Turn tables").apply{subtitle="Spin the wheel. Get the feel."},
-			SearchResultEntity("USB cables").apply{subtitle="Trustworthy for your devices."},
-			SearchResultEntity("Vitalis roll-on").apply{subtitle="Fragranced Deodorant."},
-			SearchResultEntity("Xray chart").apply{subtitle="Study the human anatomy."},
-			SearchResultEntity("Yoyo toy").apply{subtitle="Bounce. Bounce. Bounce."},
-			SearchResultEntity("Zebra costume").apply{subtitle="Unlock your inner Zebra chi with this costume."}
+			SearchResultEntity("Air conditioner").apply{subtitle="State of the art 21st century product"; picture=String.format(imagePath, "air_conditioner"); entityType=productEntity},
+			SearchResultEntity("Body lotion").apply{subtitle="Deeply moisturizes and hydrates the skin."; picture=String.format(imagePath, "body_lotion"); entityType=productEntity},
+			SearchResultEntity("Chess board").apply{subtitle="Play the game of Chess!"; picture=String.format(imagePath, "chess_board");  entityType=productEntity},
+			SearchResultEntity("Dr Strange movie").apply{subtitle="Watch Dr. Strange and the Avengers do battle."; picture=String.format(imagePath, "dr_strange"); entityType=productEntity},
+			SearchResultEntity("Electric machine").apply{subtitle="Machine for Electric fun stuff."; picture=String.format(imagePath, "electric_machine"); entityType=productEntity},
+			SearchResultEntity("Fan").apply{subtitle="Fan yourself with this tool!."; picture=String.format(imagePath, "fan");  entityType=productEntity},
+			SearchResultEntity("Gold chains").apply{subtitle="Chains on your wrist."; picture=String.format(imagePath, "gold_chains");  entityType=productEntity},
+			SearchResultEntity("Hair Straightner").apply{subtitle="Electric hair styler for you."; picture=String.format(imagePath, "hair_staightner"); entityType=productEntity},
+			SearchResultEntity("Ice cream machine").apply{subtitle="Ice cream, Vanilla. Make them all!!!"; picture=String.format(imagePath, "ice_cream_machine"); entityType=productEntity},
+			SearchResultEntity("Jojo bizarre adventure").apply{subtitle="Yare Yare Daze."; picture=String.format(imagePath, "jojo"); entityType=productEntity},
+			SearchResultEntity("Killer bee action figure").apply{subtitle="WHHEEEEEEEEEE!!!!"; picture=String.format(imagePath, "killer_bee"); entityType=productEntity},
+			SearchResultEntity("Lotus flowers").apply{subtitle="Flowers to change your mood."; picture=String.format(imagePath, "lotus"); entityType=productEntity},
+			SearchResultEntity("Manchester united jersey").apply{subtitle="The Red Devils"; picture=String.format(imagePath, "manu"); entityType=productEntity},
+			SearchResultEntity("Nerd glasses").apply{subtitle="Wanna look like you know scientific stuff?"; picture=String.format(imagePath, "nerd_glass"); entityType=productEntity},
+			SearchResultEntity("Ovaltine").apply{subtitle="Healthy. Milky. Tea. For you."; picture=String.format(imagePath, "ovaltine"); entityType=productEntity},
+			SearchResultEntity("Pet food").apply{subtitle="For Healthy pets to make them strong"; picture=String.format(imagePath, "pet_food"); entityType=productEntity},
+			SearchResultEntity("Queen rose fragrance").apply{subtitle="Eau De Parfum"; picture=String.format(imagePath, "queen_rose"); entityType=productEntity},
+			SearchResultEntity("Rat terminator").apply{subtitle="Rodent stopper. Pump action."; picture=String.format(imagePath, "rat"); entityType=productEntity},
+			SearchResultEntity("Sakura").apply{subtitle="Chaaaaaaannaaaaarroooo"; picture=String.format(imagePath, "sakura"); entityType=productEntity},
+			SearchResultEntity("Turn tables").apply{subtitle="Spin the wheel. Get the feel."; picture=String.format(imagePath, "turn_table"); entityType=productEntity},
+			SearchResultEntity("USB cables").apply{subtitle="Trustworthy for your devices."; picture=String.format(imagePath, "usb"); entityType=productEntity},
+			SearchResultEntity("Vitalis roll-on").apply{subtitle="Fragranced Deodorant."; picture=String.format(imagePath, "vitalis"); entityType=productEntity},
+			SearchResultEntity("Xray chart").apply{subtitle="Study the human anatomy."; picture=String.format(imagePath, "xray"); entityType=productEntity},
+			SearchResultEntity("Yoyo toy").apply{subtitle="Bounce. Bounce. Bounce."; picture=String.format(imagePath, "yoyo"); entityType=productEntity},
+			SearchResultEntity("Zebra costume").apply{subtitle="Unlock your inner Zebra chi with this costume."; picture=String.format(imagePath, "zebra"); entityType=productEntity}
 		))
 		FileOutputStream(file).use {
 			val s = gson.toJson(srle).toByteArray()
