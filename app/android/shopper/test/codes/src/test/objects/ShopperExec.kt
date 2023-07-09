@@ -161,7 +161,7 @@ class ShopperExec {
 			SearchResultEntity("Electric machine").apply{subtitle="Machine for Electric fun stuff."; picture=String.format(imagePath, "electric_machine"); entityType=productEntity},
 			SearchResultEntity("Fan").apply{subtitle="Fan yourself with this tool!."; picture=String.format(imagePath, "fan");  entityType=productEntity},
 			SearchResultEntity("Gold chains").apply{subtitle="Chains on your wrist."; picture=String.format(imagePath, "gold_chains");  entityType=productEntity},
-			SearchResultEntity("Hair Straightner").apply{subtitle="Electric hair styler for you."; picture=String.format(imagePath, "hair_staightner"); entityType=productEntity},
+			SearchResultEntity("Hair Straightner").apply{subtitle="Electric hair styler for you."; picture=String.format(imagePath, "hair_straightner"); entityType=productEntity},
 			SearchResultEntity("Ice cream machine").apply{subtitle="Ice cream, Vanilla. Make them all!!!"; picture=String.format(imagePath, "ice_cream_machine"); entityType=productEntity},
 			SearchResultEntity("Jojo bizarre adventure").apply{subtitle="Yare Yare Daze."; picture=String.format(imagePath, "jojo"); entityType=productEntity},
 			SearchResultEntity("Killer bee action figure").apply{subtitle="WHHEEEEEEEEEE!!!!"; picture=String.format(imagePath, "killer_bee"); entityType=productEntity},
