@@ -1,0 +1,26 @@
+{
+	"first" : {
+		"id" : 1000,
+		"themeName" : "TestDynamicThemePair: Light",
+		"themeType" : "LIGHT",
+		"primaryColor" : 12968357,
+		"iconColor" : 6174129,
+		"textColor" : 37354,
+		"secondaryTextColor" : 6174129,
+		"tertiaryTextColor" : 11184810,
+		"statusBarColor" : 37354,
+		"searchBarColor" : 37354
+	},
+	"second" : {
+		"id" : 2000,
+		"themeName" : "TestDynamicThemePair: Dark",
+		"themeType" : "DARK",
+		"primaryColor" : 3622735,
+		"iconColor" : 16754598,
+		"textColor" : 16775393,
+		"secondaryTextColor" : 16754598,
+		"tertiaryTextColor" : 11184810,
+		"statusBarColor" : 16754598,
+		"searchBarColor" : 16754598
+	}
+}
