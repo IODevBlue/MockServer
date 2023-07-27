@@ -3,24 +3,24 @@
 		"id" : 1000,
 		"themeName" : "TestDynamicThemePair: Light",
 		"themeType" : "LIGHT",
-		"primaryColor" : 12968357,
-		"iconColor" : 6174129,
-		"textColor" : 37354,
-		"secondaryTextColor" : 6174129,
-		"tertiaryTextColor" : 11184810,
-		"statusBarColor" : 37354,
-		"searchBarColor" : 37354
+		"primaryColor" : "#C5E1A5",
+		"iconColor" : "#5E35B1",
+		"textColor" : "#0091EA",
+		"secondaryTextColor" : "#5E35B1",
+		"tertiaryTextColor" : "#AAAAAA",
+		"statusBarColor" : "#0091EA",
+		"searchBarColor" : "#0091EA"
 	},
 	"second" : {
 		"id" : 2000,
 		"themeName" : "TestDynamicThemePair: Dark",
 		"themeType" : "DARK",
-		"primaryColor" : 3622735,
-		"iconColor" : 16754598,
-		"textColor" : 16775393,
-		"secondaryTextColor" : 16754598,
-		"tertiaryTextColor" : 11184810,
-		"statusBarColor" : 16754598,
-		"searchBarColor" : 16754598
+		"primaryColor" : "#37474F",
+		"iconColor" : "#FFA7A6",
+		"textColor" : "#FFF8E1",
+		"secondaryTextColor" : "#FFA7A6",
+		"tertiaryTextColor" : "#AAAAAA",
+		"statusBarColor" : "#FFA7A6",
+		"searchBarColor" : "#FFA7A6"
 	}
 }

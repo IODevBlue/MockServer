@@ -45,22 +45,22 @@ class ShopperExec {
 		}
 		val themePair = DynamicThemeEntity(1000, "TestDynamicThemePair: Light").apply {
 			themeType = ThemeType.LIGHT
-			primaryColor = 0xC5E1A5
-			iconColor = 0x5E35B1
-			textColor = 0x0091EA
-			secondaryTextColor = 0x5E35B1
-			tertiaryTextColor = 0xAAAAAA
-			statusBarColor = 0x0091EA
-			searchBarColor = 0x0091EA
+			primaryColor = "#C5E1A5" 
+			iconColor = "#5E35B1"
+			textColor = "#0091EA"
+			secondaryTextColor = "#5E35B1"
+			tertiaryTextColor =  "#AAAAAA"
+			statusBarColor = "#0091EA"
+			searchBarColor = "#0091EA"
 		} to DynamicThemeEntity(2000, "TestDynamicThemePair: Dark").apply {
 			themeType = ThemeType.DARK
-			primaryColor = 0x37474F
-			iconColor = 0xFFA7A6
-			textColor = 0xFFF8E1
-			secondaryTextColor = 0xFFA7A6
-			tertiaryTextColor = 0xAAAAAA
-			statusBarColor = 0xFFA7A6
-			searchBarColor = 0xFFA7A6
+			primaryColor = "#37474F"
+			iconColor = "#FFA7A6"
+			textColor = "#FFF8E1"
+			secondaryTextColor = "#FFA7A6"
+			tertiaryTextColor = "#AAAAAA"
+			statusBarColor = "#FFA7A6"
+			searchBarColor = "#FFA7A6"
 		}
 		
 		FileOutputStream(file).use {

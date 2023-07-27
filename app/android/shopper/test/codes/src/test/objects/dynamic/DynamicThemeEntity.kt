@@ -16,17 +16,17 @@ data class DynamicThemeEntity(
     /** The type of theme. Light or Dark. */
     var themeType: ThemeType? = null
     /** The brand color for the application. */
-    var primaryColor = -1
+    var primaryColor = ""
     /** The icon color for this theme. */
-    var iconColor = -1
+    var iconColor = ""
     /** Primary text color for this theme. */
-    var textColor = -1
+    var textColor = ""
     /** The secondary text color for this theme. */
-    var secondaryTextColor = -1
+    var secondaryTextColor = ""
     /** The tertiary text color for this theme. */
-    var tertiaryTextColor = -1
+    var tertiaryTextColor = ""
     /** The status bar background color. */
-    var statusBarColor = -1
+    var statusBarColor = ""
     /** The search bar widget background color if any is present. */
-    var searchBarColor = -1
+    var searchBarColor = ""
 }
